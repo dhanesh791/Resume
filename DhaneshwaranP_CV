@@ -1,0 +1,205 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Dhaneshwaran Ponnurangam} \\ \vspace{1pt}
+    Bengaluru \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9840306628 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{dhaneshwaran19@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/Zoober}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Swansea University}{Jan. 2022 -- Feb 2023}
+      {Master of Science in Data Science}{Swansea, UK}
+  \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Anna University}{Aug 2017 -- Feb 2021}
+      {Bachelor of Science in Computer Science and Engineering}{Chennai, In}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SportScotland}{Mar 2023 -- May 2024}
+      {Data Management Officer}{Glasgow, Scotland}
+      \resumeItemListStart
+        \resumeItem{Collaborated with cross-functional teams to develop data-driven strategies and initiatives through statistical data analysis across the organization.}
+        \resumeItem{Identified data trends across different business teams, focusing on key value drivers.}
+        \resumeItem{Supported systems and process changes by identifying new reporting opportunities, leading to a 15\% improvement in business performance and driving significant business benefits.}
+        \resumeItem{Experienced with various tools for data processing, transformation, and analysis.}
+        \resumeItem{Translated insights into understandable business terms and made key suggestions to enhance performance by 28\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sri Balaji Sat System, Inc}{Jan 2020 -- Jan 2022}
+      {Data Analyst}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Supported testing efforts using key metrics to evaluate campaign effectiveness, measure incremental impact, and determine Return on Investment (ROI).}
+        \resumeItem{Developed 10+ interactive self-service dashboards, enhancing data visualization and accessibility for stakeholders.}
+
+        \resumeItem{Analyzed data with Salesforce Tableau CRM, delivering insights and maintaining dashboards that enhanced CRM campaign performance and customer retention.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Technical \& Functional Expertise}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+          \resumeItemListStart
+            \resumeItem{Deep understanding of business processes and underlying data, adding value at every stage with accurate insights.}
+        \resumeItem{Experience handling high-volume data from multiple applications by designing and maintaining robust ETL processes.}
+        \resumeItem{Developed and implemented Power BI reporting tools for customer segmentation and profiling.}
+        \resumeItem{Managed data from global events and customer opportunities, ensuring accurate collection and integration.}
+        \resumeItem{Built and managed targeted audiences in Salesforce Marketing Cloud using SQL for BAU campaigns and automated journeys, optimizing email and push notification performance.}
+        \resumeItem{Analyzed data with Salesforce Tableau CRM, delivering insights and maintaining dashboards that enhanced CRM campaign performance and customer retention.}
+        \resumeItem{Monitored and troubleshooted data pipelines, ensuring data availability and reliability.}
+        \resumeItem{Ensured accurate data integration in Salesforce Marketing Cloud, and provided weekly reports on campaign metrics to drive informed decision-making.}
+        \resumeItem{Conducted data audits to ensure high standards and data integrity.}
+        \resumeItem{Selected key performance indicators (KPIs) to evaluate campaign effectiveness included conversion rates, ROI, CPA, CTR, CLV, engagement metrics, and lead generation metrics.}
+        \resumeItem{Strong numerical and statistical skills with the ability to think creatively and communicate insights.}
+        \resumeItem{Excel in delivering in a pressurized, fast-paced environment.}
+        \resumeItem{Work independently and as part of a team to manage and prioritize workload to meet deadlines.}
+        \resumeItem{Effective at working with minimal supervision.}
+        \resumeItem{Comfortable making recommendations and decisions to influence business outcomes with the right insights.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, JavaScript, SQL} \\
+     \textbf{Developer Tools}{: Power BI, JIRA, Alteryx, Excel } \\
+     \textbf{Technologies/Frameworks}{: Spark, Azure, Databricks, AWS, GA3, DevOps, Synapse } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+\end{document}
